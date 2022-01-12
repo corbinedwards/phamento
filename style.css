@@ -3,6 +3,11 @@
   src: url('Sofia\ Pro/SofiaPro-Regular.otf')
 }
 
+@font-face {
+	font-family: 'sofia-pro-bold';
+	src: url('Sofia\ Pro/SofiaPro-Bold.otf');
+}
+
 :root {
   --phamento-color: #3D6582;
 }
@@ -21,27 +26,54 @@ body {
   height: 88px;
   width: 100%;
   background-color: white;
+  position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 10 0 10 0;
-  background-color: tomato;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5 0 5 0;
 }
 
 .logo {
-  /* height: 68px; */
-  /* width: 294px; */
   border: 2px solid var(--phamento-color);
   margin: 0;
   padding: 0 10 0 10;
-  display: inline;
-}
-
-.logo-text {
-  font-size: 2.3em;
-  /* font-size: 36; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--phamento-color);
   text-align: center;
-  display: inline;
-  margin: 0;
+}
+
+#logo-nav {
+	height: 68px;
+	font-size: 2.3em;
+}
+
+.nav-links {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.nav-link {
+	display: flex;
+	height: 86px;
+	justify-content: center;
+	align-items: center;
+	padding: 0 15 0 15;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	margin-right: 50px;
+	border-top: 4px solid transparent;
+}
+
+.nav-link:hover {
+	border-top: 4px solid var(--phamento-color);
+}
+
+.nav-link-active {
+	border-top: 4px solid var(--phamento-color);
+	font-family: 'sofia-pro-bold';
 }
