@@ -10,7 +10,8 @@
 
 :root {
   --phamento-color: #3D6582;
-  --phamento-color-bg: #1c2e3b;
+  --phamento-color-light: #C0CFDA;
+  --phamento-color-dark: #1c2e3b;
 }
 
 body {
@@ -139,6 +140,56 @@ body {
 
 #about-content-text {
   font-size: 28px;
+  line-height: 1.6;
+}
+
+#menu {
+	background-color: var(--phamento-color-light);
+}
+
+#menu-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#menu-header-drinks {
+	color: var(--phamento-color);
+	text-align: center;
+}
+
+.menu-price {
+	display: inline;
+	font-size: 40px;
+	margin: 0.5em;
+	text-align: center;
+}
+
+.price {
+	color: var(--phamento-color);
+}
+
+.menu-drinks {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 1em;
+	text-align: center;
+	font-size: 36px;
+}
+
+.menu-drink-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-drink-col > div {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.menu-drinks-type {
+	color: var(--phamento-color);
 }
 
 a.button {
@@ -158,5 +209,16 @@ a.button {
 }
 
 .button-phamento:hover {
-  background-color: var(--phamento-color-bg);
+  background-color: var(--phamento-color-dark);
 }
+
+
+/* #grid { */
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* see notes below */
+  /* grid-gap: 1em; */
+/* } */
+
+/* #grid > div { */
+  /* background-color: #ccddaa; */
+/* } */
