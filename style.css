@@ -19,6 +19,12 @@ body {
   font-family: "sofia-pro";
 }
 
+hr {
+  margin: 10 0 0 0;
+  /* color: var(--phamento-color); */
+  border: 1px solid var(--phamento-color);
+}
+
 .wrapper {
   width: 100%;
   padding: 0;
@@ -100,7 +106,7 @@ body {
 }
 
 .content-header {
-  font-size: 48px;
+  font-size: 72px;
   margin: 0;
 }
 
@@ -129,10 +135,18 @@ body {
   flex-direction: row;
   justify-content: space-between;
   color: black;
+  gap: 75px;
+}
+
+#about-img {
+  width: 50%;
+  background-image: url("Images/tea1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about-content-blurb {
-  margin-left: 50px;
+  width: 50%;
 }
 
 #about-header {
@@ -156,7 +170,12 @@ body {
   justify-content: center;
 }
 
-#menu-header-drinks {
+.menu-section {
+  width: 100%;
+  text-align: center;
+}
+
+.menu-header {
   color: var(--phamento-color);
   text-align: center;
 }
@@ -172,33 +191,38 @@ body {
   color: var(--phamento-color);
 }
 
-.menu-drinks {
+.menu-grid {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1em;
   text-align: center;
   font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.menu-drink-col {
+#menu-grid-drinks {
+  gap: 0 1em;
+}
+
+#menu-grid-toppings {
+  gap: 0;
+}
+
+.menu-grid-col {
   display: flex;
   flex-direction: column;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 
-.menu-drink-col > div {
+/* .menu-grid-col > div {
   margin-top: 25px;
   margin-bottom: 25px;
-}
+} */
 
 .menu-drinks-type {
   color: var(--phamento-color);
-}
-
-.menu-drinks-type > hr {
-  margin: 0;
-  /* color: var(--phamento-color); */
-  border: 1px solid var(--phamento-color);
 }
 
 a.button {
