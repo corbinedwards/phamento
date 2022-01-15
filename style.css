@@ -1,22 +1,22 @@
 @font-face {
-  font-family: 'sofia-pro';
-  src: url('Sofia\ Pro/SofiaPro-Regular.otf')
+  font-family: "sofia-pro";
+  src: url("Sofia\ Pro/SofiaPro-Regular.otf");
 }
 
 @font-face {
-	font-family: 'sofia-pro-bold';
-	src: url('Sofia\ Pro/SofiaPro-Bold.otf');
+  font-family: "sofia-pro-bold";
+  src: url("Sofia\ Pro/SofiaPro-Bold.otf");
 }
 
 :root {
-  --phamento-color: #3D6582;
-  --phamento-color-light: #C0CFDA;
+  --phamento-color: #3d6582;
+  --phamento-color-light: #c0cfda;
   --phamento-color-dark: #1c2e3b;
 }
 
 body {
   margin: 0;
-  font-family: 'sofia-pro';
+  font-family: "sofia-pro";
 }
 
 .wrapper {
@@ -50,36 +50,36 @@ body {
 }
 
 #logo-nav {
-	height: 68px;
-	font-size: 2.3em;
+  height: 68px;
+  font-size: 2.3em;
 }
 
 .nav-links {
-	display: flex;
-	height: 100%;
-	align-items: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .nav-link {
-	display: flex;
-	height: 86px;
-	justify-content: space-evenly;
-	align-items: center;
-	padding: 0 15 0 15;
-	text-decoration: none;
-	color: var(--phamento-color);
-	font-size: 24px;
+  display: flex;
+  height: 86px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 15 0 15;
+  text-decoration: none;
+  color: var(--phamento-color);
+  font-size: 24px;
   margin-right: 10px;
-	border-top: 4px solid transparent;
+  border-top: 4px solid transparent;
 }
 
 .nav-link:hover {
-	border-top: 4px solid var(--phamento-color);
+  border-top: 4px solid var(--phamento-color);
 }
 
 .nav-link-active {
-	border-top: 4px solid var(--phamento-color);
-	font-family: 'sofia-pro-bold';
+  border-top: 4px solid var(--phamento-color);
+  font-family: "sofia-pro-bold";
 }
 
 .section {
@@ -93,8 +93,10 @@ body {
 }
 
 .section-content {
-  width: 80%;
+  width: 100%;
   height: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .content-header {
@@ -103,7 +105,8 @@ body {
 }
 
 #hero {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/tea1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/tea1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -144,52 +147,58 @@ body {
 }
 
 #menu {
-	background-color: var(--phamento-color-light);
+  background-color: var(--phamento-color-light);
 }
 
 #menu-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #menu-header-drinks {
-	color: var(--phamento-color);
-	text-align: center;
+  color: var(--phamento-color);
+  text-align: center;
 }
 
 .menu-price {
-	display: inline;
-	font-size: 40px;
-	margin: 0.5em;
-	text-align: center;
+  display: inline;
+  font-size: 40px;
+  margin: 0.5em;
+  text-align: center;
 }
 
 .price {
-	color: var(--phamento-color);
+  color: var(--phamento-color);
 }
 
 .menu-drinks {
-	display: grid;
-	width: 100%;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 1em;
-	text-align: center;
-	font-size: 36px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1em;
+  text-align: center;
+  font-size: 36px;
 }
 
 .menu-drink-col {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-drink-col > div {
-	margin-top: 25px;
-	margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .menu-drinks-type {
-	color: var(--phamento-color);
+  color: var(--phamento-color);
+}
+
+.menu-drinks-type > hr {
+  margin: 0;
+  /* color: var(--phamento-color); */
+  border: 1px solid var(--phamento-color);
 }
 
 a.button {
@@ -201,7 +210,7 @@ a.button {
   border-radius: 50px;
   height: 85px;
   width: 298px;
-  font-family: 'sofia-pro-bold';
+  font-family: "sofia-pro-bold";
   font-size: 36px;
   background-color: var(--phamento-color);
   color: white;
@@ -212,13 +221,12 @@ a.button {
   background-color: var(--phamento-color-dark);
 }
 
-
 /* #grid { */
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* see notes below */
-  /* grid-gap: 1em; */
+/* display: grid; */
+/* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* see notes below */
+/* grid-gap: 1em; */
 /* } */
 
 /* #grid > div { */
-  /* background-color: #ccddaa; */
+/* background-color: #ccddaa; */
 /* } */
