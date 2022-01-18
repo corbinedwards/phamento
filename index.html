@@ -1,10 +1,24 @@
+<!DOCTYPE html>
 <html>
   <head>
+	<meta charset="utf-8">
     <title>Phamento</title>
-    <link rel="stylesheet" href="style.css" />
+	<meta name="description" content="Phamento Bubble-Tee">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="icon.png">
+
+	<!-- <link rel="canonical" href="https://yoast.com/wordpress-seo/" /> -->
+
+	<link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <main class="wrapper">
       <nav class="navbar">
         <div class="logo" id="logo-nav">P H A M E N T O</div>
         <div class="nav-links">
@@ -14,9 +28,10 @@
           <a href="#" class="nav-link">C O N T A C T</a>
         </div>
       </nav>
-      <div class="section" id="hero">
+      <section class="section" id="hero">
         <div class="section-content" id="hero-content">
-          <h1
+          <header>
+			<h1
             class="hero-header"
             style="font-family: 'sofia-pro-bold';font-size: 96px;"
           >
@@ -25,17 +40,20 @@
           <h3 class="hero-header" style="font-size: 36px;">
             This German tea is really good.<br />No seriously. Try it.
           </h3>
+		</header>
           <a class="button" href="#"
             ><button class="button-phamento" id="button-hero">Menu</button></a
           >
         </div>
-      </div>
-      <div class="section" id="about">
+	</section>
+      <section class="section" id="about">
         <div class="section-content" id="about-content">
           <div id="about-img"></div>
           <div id="about-content-blurb">
-            <h2 class="content-header" id="about-header">A B O U T</h2>
-            <div id="about-content-text">
+            <header>
+				<h2 class="content-header" id="about-header">A B O U T</h2>
+			</header>
+			<div id="about-content-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -46,16 +64,18 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section" id="menu">
+      </section>
+      <section class="section" id="menu">
         <div class="section-content" id="menu-content">
-          <div class="menu-section">
-            <h2 class="content-header menu-header">D R I N K S</h2>
-            <h3 class="menu-price">M &nbsp;<span class="price">4,20€</span></h3>
-            <h3 class="menu-price price">·</h3>
-            <h3 class="menu-price">L &nbsp;<span class="price">4,90€</span></h3>
-          </div>
-          <div class="menu-grid" id="menu-grid-drinks">
+			<header>
+				<div class="menu-section">
+					<h2 class="content-header menu-header">D R I N K S</h2>
+					<h3 class="menu-price">M &nbsp;<span class="price">4,20€</span></h3>
+					<h3 class="menu-price price">·</h3>
+					<h3 class="menu-price">L &nbsp;<span class="price">4,90€</span></h3>
+				</div>
+			</header>
+          	<div class="menu-grid" id="menu-grid-drinks">
             <div class="menu-grid-col">
               <div class="menu-drinks-type">
                 Milchtee
@@ -98,12 +118,14 @@
               <div>Seasalt Cheese</div>
               <div>Brown Sugar Bubble Latte</div>
             </div>
-          </div>
-          <div class="menu-section">
-            <h2 class="content-header menu-header">T O P P I N G</h2>
-            <h3 class="menu-price"><span class="price">0,50€</span></h3>
-            <hr />
-          </div>
+          	</div>
+			<header>
+				<div class="menu-section">
+					<h2 class="content-header menu-header">T O P P I N G</h2>
+					<h3 class="menu-price"><span class="price">0,50€</span></h3>
+					<hr />
+				</div>
+			</header>
           <div class="menu-grid" id="menu-grid-toppings">
             <div class="menu-grid-col">
               <div>Kokos</div>
@@ -122,10 +144,12 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section" id="contact">
+      </section>
+      <section class="section" id="contact">
         <div class="section-content" id="contact-content">
-          <div class="logo" id="logo-contact">P H A M E N T O</div>
+          	<header>
+				<div class="logo" id="logo-contact">P H A M E N T O</div>
+			</header>
           <div class="contact-section">
             <h2 class="content-header contact-header">S T D</h2>
             <h3 class="contact-line">
@@ -157,13 +181,13 @@
             </h3>
           </div>
         </div>
-      </div>
-      <div class="section" id="footer">
+      </section>
+      <footer class="section" id="footer">
         <div class="section-content" id="footer-content">
           ©2022 Phamento LLC. <br />
           Website created by Corbin Edwards
         </div>
-      </div>
-    </div>
+      </footer>
+    </main>
   </body>
 </html>
