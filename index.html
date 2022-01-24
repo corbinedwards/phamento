@@ -20,40 +20,41 @@
   <body>
     <main class="wrapper">
       <nav class="navbar">
-        <div class="logo" id="logo-nav">P H A M E N T O</div>
+        <div class="logo" id="logo-nav"><img id="logo-img-nav"></div>
         <div class="nav-links">
-          <a href="#" class="nav-link nav-link-active">H O M E</a>
-          <a href="#" class="nav-link">A B O U T</a>
-          <a href="#" class="nav-link">M E N U</a>
-          <a href="#" class="nav-link">C O N T A C T</a>
+          <a href="#" class="nav-link nav-link-active" id="link-home">H O M E</a>
+          <a href="#" class="nav-link" id="link-about">A B O U T</a>
+          <a href="#" class="nav-link" id="link-menu">M E N U</a>
+          <a href="#" class="nav-link" id="link-contact">C O N T A C T</a>
         </div>
       </nav>
       <section class="section" id="hero">
         <div class="section-content" id="hero-content">
           <header>
-			<h1
-            class="hero-header"
-            style="font-family: 'sofia-pro-bold';font-size: 96px;"
-          >
-            Good Ass Bubble Tea.
-          </h1>
-          <h3 class="hero-header" style="font-size: 36px;">
-            This German tea is really good.<br />No seriously. Try it.
-          </h3>
-		</header>
-          <a class="button" href="#"
-            ><button class="button-phamento" id="button-hero">Menu</button></a
-          >
+            <h1
+              class="hero-header"
+              style="font-family: 'sofia-pro-bold';font-size: 96px;"
+              id="hero-header-main"
+            >
+              Good Ass Bubble Tea.
+            </h1>
+            <h3 class="hero-header" style="font-size: 36px;" id="hero-header-sub">
+              This German tea is really good.<br />No seriously. Try it.
+            </h3>
+		      </header>
+          <a class="button" href="#"><button class="button-phamento" id="button-hero">Menu</button></a>
         </div>
-	</section>
+	    </section>
       <section class="section" id="about">
         <div class="section-content" id="about-content">
-          <div id="about-img"></div>
-          <div id="about-content-blurb">
-            <header>
-				<h2 class="content-header" id="about-header">A B O U T</h2>
-			</header>
-			<div id="about-content-text">
+          <header>
+            <h2 class="content-header" id="about-header">A B O U T</h2>
+          </header>
+          <div id="about-img">
+            <img src="Images/about1.jpeg" style="width: 50%; height: auto;"/>
+            <img src="Images/about2.jpeg" style="width: 50%; height: auto;"/>
+          </div>
+			     <div id="about-content-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -61,7 +62,6 @@
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
           </div>
         </div>
       </section>

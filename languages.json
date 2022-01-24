@@ -1,0 +1,35 @@
+{
+    "languageSwitch": [
+        {
+            "id": "link-home",
+            "eng": "H O M E",
+            "ger": "H E I M A T"
+        },
+        {
+            "id": "link-about",
+            "eng": "A B O U T",
+            "ger": "E T W A"
+        },
+        {
+            "id": "link-menu",
+            "eng": "M E N U",
+            "ger": "G E T R Ä N K"
+        },
+        {
+            "id": "link-contact",
+            "eng": "C O N T A C T",
+            "ger": "K O N T A K T"
+        },
+        {
+            "id": "hero-header-main",
+            "eng": "Good Ass Bubble Tea.",
+            "ger": "Guter Bubble Tea."
+        },
+        {
+            "id": "hero-header-sub",
+            "eng": "C O N T A C T",
+            "ger": "K O N T A K T"
+        }
+    ]
+    
+}
