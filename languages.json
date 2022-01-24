@@ -13,7 +13,7 @@
         {
             "id": "link-menu",
             "eng": "M E N U",
-            "ger": "G E T R Ä N K"
+            "ger": "G E T R Ä N K E"
         },
         {
             "id": "link-contact",
@@ -27,8 +27,238 @@
         },
         {
             "id": "hero-header-sub",
-            "eng": "C O N T A C T",
-            "ger": "K O N T A K T"
+            "eng": "This German tea is really good.<br />No seriously. Try it.",
+            "ger": "Dieser deutsche Tee ist wirklich gut.<br />Nein im Ernst. Versuch es."
+        },
+		{
+            "id": "button-hero",
+            "eng": "Menu",
+            "ger": "Getränke"
+        },
+		{
+            "id": "about-header",
+            "eng": "A B O U T",
+            "ger": "E T W A"
+        },
+		{
+            "id": "about-content-text",
+            "eng": "",
+            "ger": ""
+        },
+		{
+            "id": "menu-header-drinks",
+            "eng": "D R I N K S",
+            "ger": "G E T R Ä N K E"
+        },
+		{
+            "id": "drinks-milktea",
+            "eng": "Milk Tea",
+            "ger": "Milchtee"
+        },
+		{
+            "id": "milktea-1",
+            "eng": "Black",
+            "ger": "Schwarz"
+        },
+		{
+            "id": "milktea-2",
+            "eng": "Green",
+            "ger": "Grun"
+        },
+		{
+            "id": "milktea-3",
+            "eng": "Caramel",
+            "ger": "Karamell"
+        },
+		{
+            "id": "drinks-fruittea",
+            "eng": "Flavored Tea",
+            "ger": "Frutchtetee"
+        },
+		{
+            "id": "fruittea-1",
+            "eng": "Watermelon",
+            "ger": "Wassermelone"
+        },
+		{
+            "id": "fruittea-2",
+            "eng": "Lemon",
+            "ger": "Zitrone"
+        },
+		{
+            "id": "fruittea-3",
+            "eng": "Mango",
+            "ger": "Mango"
+        },
+		{
+            "id": "fruittea-4",
+            "eng": "Honeydew",
+            "ger": "Honig Melone"
+        },
+		{
+            "id": "fruittea-5",
+            "eng": "Lychee",
+            "ger": "Litschi"
+        },
+		{
+            "id": "fruittea-6",
+            "eng": "Peach",
+            "ger": "Pfirsch"
+        },
+		{
+            "id": "fruittea-7",
+            "eng": "Passion Fruit",
+            "ger": "Maracuja"
+        },
+		{
+            "id": "fruittea-8",
+            "eng": "Guava",
+            "ger": "Guave"
+        },
+		{
+            "id": "drinks-latte",
+            "eng": "Latte",
+            "ger": "Latte"
+        },
+		{
+            "id": "latte-1",
+            "eng": "Matcha",
+            "ger": "Matcha"
+        },
+		{
+            "id": "latte-1",
+            "eng": "Matcha",
+            "ger": "Matcha"
+        },
+		{
+            "id": "latte-2",
+            "eng": "Taro",
+            "ger": "Taro"
+        },
+		{
+            "id": "latte-3",
+            "eng": "Coconut",
+            "ger": "Kokos"
+        },
+		{
+            "id": "latte-4",
+            "eng": "Chocolate",
+            "ger": "Schokolade"
+        },
+		{
+            "id": "latte-5",
+            "eng": "Vanilla",
+            "ger": "Vanille"
+        },
+		{
+            "id": "drinks-specials",
+            "eng": "Specials",
+            "ger": "Spezialitaten"
+        },
+		{
+            "id": "specials-1",
+            "eng": "Seasalt Cheese",
+            "ger": "Seasalt Cheese"
+        },
+		{
+            "id": "specials-2",
+            "eng": "Brown Sugar Bubble Latte",
+            "ger": "Brown Sugar Bubble Latte"
+        },
+		{
+            "id": "menu-header-toppings",
+            "eng": "T O P P I N G S",
+            "ger": "T O P P I N G"
+        },
+		{
+            "id": "topping-1",
+            "eng": "Coconut",
+            "ger": "Kokos"
+        },
+		{
+            "id": "topping-2",
+            "eng": "Passion Fruit",
+            "ger": "Maracuja"
+        },
+		{
+            "id": "topping-3",
+            "eng": "Aloe Vera",
+            "ger": "Aloe Vera"
+        },
+		{
+            "id": "topping-4",
+            "eng": "Mango",
+            "ger": "Mango"
+        },
+		{
+            "id": "topping-5",
+            "eng": "Cohposite",
+            "ger": "Cohposite"
+        },
+		{
+            "id": "topping-6",
+            "eng": "Yogurt",
+            "ger": "Joghurt"
+        },
+		{
+            "id": "topping-7",
+            "eng": "Lychee",
+            "ger": "Litschi"
+        },
+		{
+            "id": "contact-header-hours",
+            "eng": "H O U R S",
+            "ger": "S T D"
+        },
+		{
+            "id": "monday",
+            "eng": "Monday:",
+            "ger": "Montag:
+        },
+		{
+            "id": "tuesday",
+            "eng": "Tuesday:",
+            "ger": "Dienstag:"
+        },
+		{
+            "id": "wednesday",
+            "eng": "Wednesday:",
+            "ger": "Mittwoch:"
+        },
+		{
+            "id": "thursday",
+            "eng": "Thursday:",
+            "ger": "Donnerstag:"
+        },
+		{
+            "id": "friday",
+            "eng": "Friday:",
+            "ger": "Freitag:"
+        },
+		{
+            "id": "saturday",
+            "eng": "Saturday:",
+            "ger": "Samstag:"
+        },
+		{
+            "id": "sunday",
+            "eng": "Sunday:",
+            "ger": "Sonntag:"
+        },
+		{
+            "id": "closed",
+            "eng": "Closed",
+            "ger": "Abgeschlossen"
+        },
+		{
+            "id": "contact-header-location",
+            "eng": "L O C A T I O N",
+            "ger": "L A G E"
+        },
+		{
+            "id": "footer-content",
+            "eng": "©2022 Phamento LLC. <br /> Website created by Corbin Edwards",
+            "ger": "©2022 Phamento LLC. <br /> Webseite erstellt von Corbin Edwards"
         }
     ]
     
