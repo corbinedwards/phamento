@@ -36,6 +36,12 @@ hr {
   flex-direction: column;
 }
 
+.navbar {
+  gap: 50px;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+}
+
 /* .navbar {
   height: 150px;
   width: 100%;
@@ -48,20 +54,23 @@ hr {
   padding: 5 0 5 0;
 } */
 
+
 .logo {
   margin: 0;
   padding: 0 0.3rem 0 0.3 rem;
   display: flex;
   align-items: center;
-  height: 2em;
-  width: 7.75em;
 }
 
-.nav-links {
-  display: flex;
+.navbar-nav {
+  gap: 20px;
+}
+
+/* .nav-links {
   height: 100%;
   align-items: center;
-}
+  width: auto;
+} */
 
 .nav-link {
   height: 86px;
@@ -83,6 +92,11 @@ hr {
 .nav-link-active {
   border-top: 4px solid var(--phamento-color);
   font-family: "sofia-pro-bold";
+}
+
+.dropdown-item {
+  color: var(--phamento-color);
+  font-size: 20px;
 }
 
 .section {
