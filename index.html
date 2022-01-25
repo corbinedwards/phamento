@@ -1,31 +1,87 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Phamento</title>
-	<meta name="description" content="Phamento Bubble-Tee">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Phamento Bubble-Tee" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<link rel="apple-touch-icon" href="icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
 
-	<!-- <link rel="canonical" href="https://yoast.com/wordpress-seo/" /> -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
-	<link rel="stylesheet" href="style.css" />
+    <!-- <link rel="canonical" href="https://yoast.com/wordpress-seo/" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="wrapper">
-      <nav class="navbar">
-        <div class="logo" id="logo-nav"><img id="logo-img-nav"></div>
-        <div class="nav-links">
-          <a href="#" class="nav-link nav-link-active" id="link-home">H O M E</a>
-          <a href="#" class="nav-link" id="link-about">A B O U T</a>
-          <a href="#" class="nav-link" id="link-menu">M E N U</a>
-          <a href="#" class="nav-link" id="link-contact">C O N T A C T</a>
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbar-brand logo" id="logo-nav">
+          <img id="logo-img-nav" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse nav-links"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-item nav-link nav-link-active"
+                id="link-home"
+                >H O M E</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item nav-link" id="link-about"
+                >A B O U T</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item nav-link" id="link-menu">M E N U</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item nav-link" id="link-contact"
+                >C O N T A C T</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                L A N G
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">E N G</a></li>
+                <li><a class="dropdown-item" href="#">G E R</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </nav>
       <section class="section" id="hero">
@@ -38,44 +94,56 @@
             >
               Good Ass Bubble Tea.
             </h1>
-            <h3 class="hero-header" style="font-size: 36px;" id="hero-header-sub">
+            <h3
+              class="hero-header"
+              style="font-size: 36px;"
+              id="hero-header-sub"
+            >
               This German tea is really good.<br />No seriously. Try it.
             </h3>
-		  </header>
-          <a class="button" href="#"><button class="button-phamento" id="button-hero">Menu</button></a>
+          </header>
+          <a class="button" href="#"
+            ><button class="button-phamento" id="button-hero">Menu</button></a
+          >
         </div>
-	    </section>
+      </section>
       <section class="section" id="about">
         <div class="section-content" id="about-content">
           <header>
             <h2 class="content-header" id="about-header">A B O U T</h2>
           </header>
           <div id="about-img">
-            <img src="Images/about1.jpeg" style="width: 50%; height: auto;"/>
-            <img src="Images/about2.jpeg" style="width: 50%; height: auto;"/>
+            <img src="Images/about1.jpeg" style="width: 50%; height: auto;" />
+            <img src="Images/about2.jpeg" style="width: 50%; height: auto;" />
           </div>
-			     <div id="about-content-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div id="about-content-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
       </section>
       <section class="section" id="menu">
         <div class="section-content" id="menu-content">
-			<header>
-				<div class="menu-section">
-					<h2 class="content-header menu-header" id="menu-header-drinks">D R I N K S</h2>
-					<h3 class="menu-price">M &nbsp;<span class="price">4,20€</span></h3>
-					<h3 class="menu-price price">·</h3>
-					<h3 class="menu-price" id="menu-price-l">L &nbsp;<span class="price">4,90€</span></h3>
-				</div>
-			</header>
-          	<div class="menu-grid" id="menu-grid-drinks">
+          <header>
+            <div class="menu-section">
+              <h2 class="content-header menu-header" id="menu-header-drinks">
+                D R I N K S
+              </h2>
+              <h3 class="menu-price">
+                M &nbsp;<span class="price">4,20€</span>
+              </h3>
+              <h3 class="menu-price price">·</h3>
+              <h3 class="menu-price" id="menu-price-l">
+                L &nbsp;<span class="price">4,90€</span>
+              </h3>
+            </div>
+          </header>
+          <div class="menu-grid" id="menu-grid-drinks">
             <div class="menu-grid-col">
               <div class="menu-drinks-type" id="drinks-milktea">
                 Milchtee
@@ -118,14 +186,16 @@
               <div id="specials-1">Seasalt Cheese</div>
               <div id="specials-2">Brown Sugar Bubble Latte</div>
             </div>
-          	</div>
-			<header>
-				<div class="menu-section">
-					<h2 class="content-header menu-header" id="menu-header-toppings">T O P P I N G</h2>
-					<h3 class="menu-price"><span class="price">0,50€</span></h3>
-					<hr />
-				</div>
-			</header>
+          </div>
+          <header>
+            <div class="menu-section">
+              <h2 class="content-header menu-header" id="menu-header-toppings">
+                T O P P I N G
+              </h2>
+              <h3 class="menu-price"><span class="price">0,50€</span></h3>
+              <hr />
+            </div>
+          </header>
           <div class="menu-grid" id="menu-grid-toppings">
             <div class="menu-grid-col">
               <div id="topping-1">Kokos</div>
@@ -147,35 +217,47 @@
       </section>
       <section class="section" id="contact">
         <div class="section-content" id="contact-content">
-          	<header>
-				<div class="logo" id="logo-contact">P H A M E N T O</div>
-			</header>
+          <header>
+            <div class="logo" id="logo-contact">P H A M E N T O</div>
+          </header>
           <div class="contact-section">
-            <h2 class="content-header contact-header" id="contact-header-hours">S T D</h2>
+            <h2 class="content-header contact-header" id="contact-header-hours">
+              S T D
+            </h2>
             <h3 class="contact-line">
-              <span class="phamento-bold" id="monday">Montag:</span> <span id="closed">Abgeschlossen</span>
+              <span class="phamento-bold" id="monday">Montag:</span>
+              <span id="closed">Abgeschlossen</span>
             </h3>
             <h3 class="contact-line">
-              <span class="phamento-bold" id="tuesday">Dienstag:</span> 12pm - 6pm
+              <span class="phamento-bold" id="tuesday">Dienstag:</span> 12pm -
+              6pm
             </h3>
             <h3 class="contact-line">
-              <span class="phamento-bold" id="wednesday">Mittwoch:</span> 12pm - 6pm
+              <span class="phamento-bold" id="wednesday">Mittwoch:</span> 12pm -
+              6pm
             </h3>
             <h3 class="contact-line">
-              <span class="phamento-bold" id="thursday">Donnerstag:</span> 12pm - 6pm
+              <span class="phamento-bold" id="thursday">Donnerstag:</span> 12pm
+              - 6pm
             </h3>
             <h3 class="contact-line">
               <span class="phamento-bold" id="friday">Freitag:</span> 12pm - 6pm
             </h3>
             <h3 class="contact-line">
-              <span class="phamento-bold" id="saturday">Samstag:</span> 12pm - 7pm
+              <span class="phamento-bold" id="saturday">Samstag:</span> 12pm -
+              7pm
             </h3>
             <h3 class="contact-line">
               <span class="phamento-bold" id="sunday">Sonntag:</span> 12pm - 7pm
             </h3>
           </div>
           <div class="contact-section">
-            <h2 class="content-header contact-header" id="contact-header-location">L A G E</h2>
+            <h2
+              class="content-header contact-header"
+              id="contact-header-location"
+            >
+              L A G E
+            </h2>
             <h3 class="contact-line phamento-bold">
               Am Strom 66 18119 Rostock
             </h3>
@@ -189,5 +271,10 @@
         </div>
       </footer>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
