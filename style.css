@@ -48,7 +48,13 @@ hr {
 }
 
 #logo-nav {
+  height: 100%;
   flex-grow: inherit;
+}
+
+#logo-img-nav {
+  height: 100%;
+  width: auto;
 }
 
 #navbarSupportedContent {
