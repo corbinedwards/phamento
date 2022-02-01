@@ -100,6 +100,7 @@ a.button {
   font-size: 30px;
   margin-left: 0;
   margin-right: 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .collapse.navbar-collapse > .navbar-nav > .nav-item {
@@ -139,6 +140,14 @@ a.button {
 .nav-link-active {
   border-top: 4px solid var(--phamento-color);
   font-family: "sofia-pro-bold";
+}
+
+.nav-link-language {
+  background-color: var(--phamento-color-light);
+}
+
+#eng {
+  border-top: 4px solid var(--phamento-color);
 }
 
 #language-dropdown {

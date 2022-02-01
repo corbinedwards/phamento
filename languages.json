@@ -31,6 +31,16 @@
       "ger": "G E R"
     },
     {
+      "id": "eng",
+      "eng": "E N G",
+      "ger": "E N G"
+    },
+    {
+      "id": "ger",
+      "eng": "G E R",
+      "ger": "G E R"
+    },
+    {
       "id": "hero-header-main",
       "eng": "Good Ass Bubble Tea.",
       "ger": "Guter Bubble Tea."
