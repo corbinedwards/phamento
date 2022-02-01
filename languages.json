@@ -42,13 +42,13 @@
     },
     {
       "id": "hero-header-main",
-      "eng": "Good Ass Bubble Tea.",
-      "ger": "Guter Bubble Tea."
+      "eng": "Good Ass Bubble Tea",
+      "ger": "Guter Bubble-Tee"
     },
     {
       "id": "hero-header-sub",
-      "eng": "This German tea is really good.<br />No seriously. Try it.",
-      "ger": "Dieser deutsche Tee ist wirklich gut.<br />Nein im Ernst. Versuch es."
+      "eng": "This Bubble Tea is really good.<br />No seriously. Try it.",
+      "ger": "Dieser Bubble-Tee ist wirklich gut.<br />Nein im Ernst. Versuch es."
     },
     {
       "id": "button-hero",
