@@ -177,8 +177,6 @@ a.button {
 .section-content {
   width: 100%;
   height: 100%;
-  padding-left: 80px;
-  padding-right: 80px;
 }
 
 .content-header {
@@ -214,7 +212,7 @@ a.button {
 
 #about-header {
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color: var(--phamento-color);
   text-align: center;
 }
