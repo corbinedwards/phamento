@@ -70,6 +70,10 @@ a.button {
   height: 150px;
 }
 
+.navbar-wrapper {
+  background-color: white;
+}
+
 .logo {
   margin: 0;
   display: flex;
@@ -159,6 +163,7 @@ a.button {
   font-size: 14px;
 }
 
+
 .section {
   width: 100%;
   display: flex;
@@ -188,6 +193,7 @@ a.button {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  margin-top: 150px;
 }
 
 #hero-content {
@@ -216,6 +222,11 @@ a.button {
 #about-content-text {
   font-size: 28px;
   line-height: 1.6;
+}
+
+#about-img {
+  height: 800px;
+  width: auto;
 }
 
 #menu {
