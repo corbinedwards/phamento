@@ -223,8 +223,9 @@ a.button {
 }
 
 #about-img {
-  height: 800px;
+  height: 700px;
   width: auto;
+  max-width: 550px;
 }
 
 #menu {
