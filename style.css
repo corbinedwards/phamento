@@ -97,6 +97,11 @@ a.button {
   width: auto;
 }
 
+#logo-img-contact {
+  height: 100%;
+  width: auto;
+}
+
 .show.collapse.navbar-collapse > .navbar-nav > .nav-item,
 .collapsing.navbar-collapse > .navbar-nav > .nav-item {
   font-size: 30px;
@@ -228,12 +233,6 @@ a.button {
 
 #menu {
   background-color: var(--phamento-color-light);
-}
-
-#menu-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .menu-section {
