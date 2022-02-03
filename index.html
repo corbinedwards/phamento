@@ -55,20 +55,20 @@
                   href="#"
                   class="nav-item nav-link nav-link-active"
                   id="link-home"
-                  >H O M E</a
+                  >HOME</a
                 >
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-item nav-link" id="link-about"
-                  >A B O U T</a
+                  >ABOUT</a
                 >
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-item nav-link" id="link-menu">M E N U</a>
+                <a href="#" class="nav-item nav-link" id="link-menu">MENU</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-item nav-link" id="link-contact"
-                  >C O N T A C T</a
+                  >CONTACT</a
                 >
               </li>
               <li class="nav-item dropdown d-none d-lg-block">
@@ -80,7 +80,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  E N G
+                  ENG
                 </a>
                 <ul class="dropdown-menu" id="language-dropdown" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#" id="language2">G E R</a></li>
@@ -88,12 +88,12 @@
               </li>
               <li class="nav-item nav-link-language d-xs-block d-lg-none">
                 <a href="#" class="nav-item nav-link" id="eng">
-                  E N G
+                  ENG
                 </a>
               </li>
               <li class="nav-item nav-link-language d-xs-block d-lg-none">
                 <a href="#" class="nav-item nav-link" id="ger">
-                  G E R
+                  GER
                 </a>
               </li>
             </ul>
@@ -126,7 +126,7 @@
       <section class="container-fluid section" id="about">
         <div class="container ps-lg-5 pe-lg-5 flex-column" id="about-content">
           <header>
-            <h2 class="content-header" id="about-header">A B O U T</h2>
+            <h2 class="content-header" id="about-header">ABOUT</h2>
           </header>
           <div class="d-flex flex-sm-column flex-lg-row justify-content-between" style="gap:50px;">
             <div class="d-flex justify-content-center" style="width: auto;">
@@ -149,14 +149,14 @@
           <header>
             <div class="menu-section">
               <h2 class="content-header menu-header" id="menu-header-drinks">
-                D R I N K S
+                DRINKS
               </h2>
               <h3 class="menu-price">
                 M &nbsp;<span class="price">4,20€</span>
               </h3>
               <h3 class="menu-price price">·</h3>
               <h3 class="menu-price" id="menu-price-l">
-                L &nbsp;<span class="price">4,90€</span>
+                L &nbsp;<span class="price">4,80€</span>
               </h3>
             </div>
           </header>
@@ -178,11 +178,16 @@
               <div id="fruittea-1">Wassermelone</div>
               <div id="fruittea-2">Zitrone</div>
               <div id="fruittea-3">Mango</div>
-              <div id="fruittea-4">Honig Melone</div>
+              <div id="fruittea-4">Honigmelone</div>
               <div id="fruittea-5">Litschi</div>
-              <div id="fruittea-6">Pfirsch</div>
+              <div id="fruittea-6">Pfirsich</div>
               <div id="fruittea-7">Maracuja</div>
               <div id="fruittea-8">Guave</div>
+              <div id="fruittea-9">Apfel</div>
+              <div id="fruittea-10">Erdbeer</div>
+              <div id="fruittea-11">Himbeer</div>
+              <div id="fruittea-12">Kiwi</div>
+              <div id="fruittea-13">Ananas</div>
             </div>
             <div class="menu-grid-col">
               <div class="menu-drinks-type" id="drinks-latte">
@@ -194,6 +199,8 @@
               <div id="latte-3">Kokos</div>
               <div id="latte-4">Schokolade</div>
               <div id="latte-5">Vanille</div>
+              <div id="latte-6">Brauner Zucker</div>
+              <div id="latte-7">Espresso</div>
             </div>
             <div class="menu-grid-col">
               <div class="menu-drinks-type" id="drinks-specials">
@@ -207,77 +214,92 @@
           <header>
             <div class="menu-section">
               <h2 class="content-header menu-header" id="menu-header-toppings">
-                T O P P I N G
+                EXTRA TOPPING
               </h2>
-              <h3 class="menu-price"><span class="price">0,50€</span></h3>
-              <hr />
+              <h3 class="menu-price"><span class="price">+ 0,50€</span></h3>
             </div>
           </header>
           <div class="menu-grid" id="menu-grid-toppings">
             <div class="menu-grid-col">
-              <div id="topping-1">Kokos</div>
-              <div id="topping-2">Maracuja</div>
+              <div class="menu-drinks-type" id="toppings-klassik">
+                Klassik
+                <hr />
+              </div>
+              <div id="topping-classic-1">Tapioka</div>
             </div>
             <div class="menu-grid-col">
-              <div id="topping-3">Aloe Vera</div>
-              <div id="topping-4">Mango</div>
+              <div class="menu-drinks-type" id="toppings-jelly">
+                Jelly
+                <hr />
+              </div>
+              <div id="topping-jelly-1">Kokos</div>
+              <div id="topping-jelly-2">Regenbogen</div>
+              <div id="topping-jelly-3">Aloe Vera</div>
             </div>
             <div class="menu-grid-col">
-              <div id="topping-5">Cohposite</div>
-              <div id="topping-6">Joghurt</div>
-            </div>
-            <div class="menu-grid-col">
-              <div id="topping-7">Litschi</div>
+              <div class="menu-drinks-type" id="toppings-jelly">
+                Boba
+                <hr />
+              </div>
+              <div id="topping-boba-1">Litschi</div>
+              <div id="topping-boba-2">Maracuja</div>
+              <div id="topping-boba-3">Joghurt</div>
+              <div id="topping-boba-4">Mango</div>
+              <div id="topping-boba-5">Erdbeer</div>
+              <div id="topping-boba-6">Pfirsich</div>
+              <div id="topping-boba-7">Apfel</div>
             </div>
           </div>
         </div>
       </section>
       <section class="container-fluid section" id="contact">
-        <div class="container-lg ps-lg-5 pe-lg-5 flex-md-column flex-xl-row justify-content-between" id="contact-content">
+        <div class="container-lg ps-lg-5 pe-lg-5 flex-column flex-lg-row justify-content-evenly" id="contact-content">
           <div class="logo justify-content-center">
             <img src="Images/phamento_logo.png"/>
           </div>
-          <div class="contact-section">
-            <h2 class="content-header contact-header" id="contact-header-hours">
-              S T D
-            </h2>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="monday">Montag:</span>
-              <span id="closed">Abgeschlossen</span>
-            </h3>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="tuesday">Dienstag:</span> 12pm -
-              6pm
-            </h3>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="wednesday">Mittwoch:</span> 12pm -
-              6pm
-            </h3>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="thursday">Donnerstag:</span> 12pm
-              - 6pm
-            </h3>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="friday">Freitag:</span> 12pm - 6pm
-            </h3>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="saturday">Samstag:</span> 12pm -
-              7pm
-            </h3>
-            <h3 class="contact-line">
-              <span class="phamento-bold" id="sunday">Sonntag:</span> 12pm - 7pm
-            </h3>
-          </div>
-          <div class="contact-section">
-            <h2
-              class="content-header contact-header"
-              id="contact-header-location"
-            >
-              L A G E
-            </h2>
-            <h3 class="contact-line phamento-bold">
-              Am Strom 66 18119 Rostock
-            </h3>
+          <div class="flex-grow-1 d-flex flex-row justify-content-evenly">
+            <div>
+              <h2 class="content-header contact-header" id="contact-header-hours">
+                STD
+              </h2>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="monday">Montag:</span>
+                <span id="closed">Abgeschlossen</span>
+              </h3>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="tuesday">Dienstag:</span> 12pm -
+                6pm
+              </h3>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="wednesday">Mittwoch:</span> 12pm -
+                6pm
+              </h3>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="thursday">Donnerstag:</span> 12pm
+                - 6pm
+              </h3>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="friday">Freitag:</span> 12pm - 6pm
+              </h3>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="saturday">Samstag:</span> 12pm -
+                7pm
+              </h3>
+              <h3 class="contact-line">
+                <span class="phamento-bold" id="sunday">Sonntag:</span> 12pm - 7pm
+              </h3>
+            </div>
+            <div>
+              <h2
+                class="content-header contact-header"
+                id="contact-header-location"
+              >
+                LAGE
+              </h2>
+              <h3 class="contact-line phamento-bold">
+                Am Strom 66 18119 Rostock
+              </h3>
+            </div>
           </div>
         </div>
       </section>

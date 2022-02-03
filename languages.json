@@ -2,43 +2,43 @@
   "languageSwitch": [
     {
       "id": "link-home",
-      "eng": "H O M E",
-      "ger": "H E I M A T"
+      "eng": "HOME",
+      "ger": "HEIMAT"
     },
     {
       "id": "link-about",
-      "eng": "A B O U T",
-      "ger": "E T W A"
+      "eng": "ABOUT",
+      "ger": "ETWA"
     },
     {
       "id": "link-menu",
-      "eng": "M E N U",
-      "ger": "G E T R Ä N K E"
+      "eng": "MENU",
+      "ger": "GETRÄNKE"
     },
     {
       "id": "link-contact",
-      "eng": "C O N T A C T",
-      "ger": "K O N T A K T"
+      "eng": "CONTACT",
+      "ger": "KONTAKT"
     },
     {
       "id": "navbarDropdown",
-      "eng": "E N G",
-      "ger": "G E R"
+      "eng": "ENG",
+      "ger": "GER"
     },
     {
       "id": "language2",
-      "eng": "E N G",
-      "ger": "G E R"
+      "eng": "ENG",
+      "ger": "GER"
     },
     {
       "id": "eng",
-      "eng": "E N G",
-      "ger": "E N G"
+      "eng": "ENG",
+      "ger": "ENG"
     },
     {
       "id": "ger",
-      "eng": "G E R",
-      "ger": "G E R"
+      "eng": "GER",
+      "ger": "GER"
     },
     {
       "id": "hero-header-main",
@@ -57,8 +57,8 @@
     },
     {
       "id": "about-header",
-      "eng": "A B O U T",
-      "ger": "E T W A"
+      "eng": "ABOUT",
+      "ger": "ETWA"
     },
     {
       "id": "about-content-text",
@@ -67,8 +67,8 @@
     },
     {
       "id": "menu-header-drinks",
-      "eng": "D R I N K S",
-      "ger": "G E T R Ä N K E"
+      "eng": "DRINKS",
+      "ger": "GETRÄNKE"
     },
     {
       "id": "drinks-milktea",
@@ -113,7 +113,7 @@
     {
       "id": "fruittea-4",
       "eng": "Honeydew",
-      "ger": "Honig Melone"
+      "ger": "Honigmelone"
     },
     {
       "id": "fruittea-5",
@@ -123,7 +123,7 @@
     {
       "id": "fruittea-6",
       "eng": "Peach",
-      "ger": "Pfirsch"
+      "ger": "Pfirsich"
     },
     {
       "id": "fruittea-7",
@@ -136,14 +136,34 @@
       "ger": "Guave"
     },
     {
+      "id": "fruittea-9",
+      "eng": "Apple",
+      "ger": "Apfel"
+    },
+    {
+      "id": "fruittea-10",
+      "eng": "Strawberry",
+      "ger": "Erdbeer"
+    },
+    {
+      "id": "fruittea-11",
+      "eng": "Raspberry",
+      "ger": "Himbeer"
+    },
+    {
+      "id": "fruittea-12",
+      "eng": "Kiwi",
+      "ger": "Kiwi"
+    },
+    {
+      "id": "fruittea-13",
+      "eng": "Pineapple",
+      "ger": "Ananas"
+    },
+    {
       "id": "drinks-latte",
       "eng": "Latte",
       "ger": "Latte"
-    },
-    {
-      "id": "latte-1",
-      "eng": "Matcha",
-      "ger": "Matcha"
     },
     {
       "id": "latte-1",
@@ -171,6 +191,16 @@
       "ger": "Vanille"
     },
     {
+      "id": "latte-6",
+      "eng": "Brown Sugar",
+      "ger": "Brauner Zucker"
+    },
+    {
+      "id": "latte-7",
+      "eng": "Espresso",
+      "ger": "Espresso"
+    },
+    {
       "id": "drinks-specials",
       "eng": "Specials",
       "ger": "Spezialitaten"
@@ -187,43 +217,63 @@
     },
     {
       "id": "menu-header-toppings",
-      "eng": "T O P P I N G S",
-      "ger": "T O P P I N G"
+      "eng": "EXTRA TOPPINGS",
+      "ger": "EXTRA TOPPING"
     },
     {
-      "id": "topping-1",
+      "id": "topping-classic-1",
+      "eng": "Tapioca",
+      "ger": "Tapioka"
+    },
+    {
+      "id": "topping-jelly-1",
       "eng": "Coconut",
       "ger": "Kokos"
     },
     {
-      "id": "topping-2",
-      "eng": "Passion Fruit",
-      "ger": "Maracuja"
+      "id": "topping-jelly-2",
+      "eng": "Rainbow",
+      "ger": "Regenbogen"
     },
     {
-      "id": "topping-3",
+      "id": "topping-jelly-3",
       "eng": "Aloe Vera",
       "ger": "Aloe Vera"
     },
     {
-      "id": "topping-4",
-      "eng": "Mango",
-      "ger": "Mango"
+      "id": "topping-boba-1",
+      "eng": "Lychee",
+      "ger": "Litschi"
     },
     {
-      "id": "topping-5",
-      "eng": "Cohposite",
-      "ger": "Cohposite"
+      "id": "topping-boba-2",
+      "eng": "Passion Fruit",
+      "ger": "Maracuja"
     },
     {
-      "id": "topping-6",
+      "id": "topping-boba-3",
       "eng": "Yogurt",
       "ger": "Joghurt"
     },
     {
-      "id": "topping-7",
-      "eng": "Lychee",
-      "ger": "Litschi"
+      "id": "topping-boba-4",
+      "eng": "Mango",
+      "ger": "Mango"
+    },
+    {
+      "id": "topping-boba-5",
+      "eng": "Strawberry",
+      "ger": "Erdbeer"
+    },
+    {
+      "id": "topping-boba-6",
+      "eng": "Peach",
+      "ger": "Pfirsich"
+    },
+    {
+      "id": "topping-boba-7",
+      "eng": "Apple",
+      "ger": "Apfel"
     },
     {
       "id": "contact-header-hours",
