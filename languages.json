@@ -276,9 +276,149 @@
       "ger": "Apfel"
     },
     {
+      "id": "menu-header-coffee",
+      "eng": "COFFEE",
+      "ger": "KAFFEE"
+    },
+    {
+      "id": "coffee-vietnam",
+      "eng": "Made in Vietnam",
+      "ger": "Hergestellt in Vietnam"
+    },
+    {
+      "id": "coffee-vietnam-1",
+      "eng": "Traditional Vietnamese Coffee Style",
+      "ger": "Vietnamesischer Kaffee Traditioneller Art"
+    },
+    {
+      "id": "coffee-italy",
+      "eng": "Made in Italy",
+      "ger": "Hergestellt in Italien"
+    },
+    {
+      "id": "coffee-italy-1",
+      "eng": "Espresso",
+      "ger": "Espresso"
+    },
+    {
+      "id": "coffee-italy-2",
+      "eng": "Double Espresso",
+      "ger": "Espresso Doppelt"
+    },
+    {
+      "id": "coffee-italy-3",
+      "eng": "Coffee S",
+      "ger": "Kaffee S"
+    },
+    {
+      "id": "coffee-italy-4",
+      "eng": "Coffee M",
+      "ger": "Kaffee M"
+    },
+    {
+      "id": "coffee-italy-5",
+      "eng": "Cappuccino",
+      "ger": "Cappuccino"
+    },
+    {
+      "id": "coffee-italy-6",
+      "eng": "Latte Macchiato",
+      "ger": "Latte Macchiato"
+    },
+    {
+      "id": "coffee-latte",
+      "eng": "Hot Latte",
+      "ger": "Heißer Latte"
+    },
+    {
+      "id": "coffee-latte-1",
+      "eng": "Chocolate",
+      "ger": "Schokolade"
+    },
+    {
+      "id": "coffee-latte-2",
+      "eng": "Vanilla",
+      "ger": "Vanille"
+    },
+    {
+      "id": "coffee-latte-3",
+      "eng": "Caramel",
+      "ger": "Karamell"
+    },
+    {
+      "id": "coffee-latte-4",
+      "eng": "Coconut",
+      "ger": "Kokos"
+    },
+    {
+      "id": "coffee-latte-5",
+      "eng": "Matcha",
+      "ger": "Matcha"
+    },
+    {
+      "id": "coffee-latte-6",
+      "eng": "Taro",
+      "ger": "Taro"
+    },
+    {
+      "id": "coffee-biotee",
+      "eng": "Organic Tea",
+      "ger": "Bio Tee"
+    },
+    {
+      "id": "coffee-biotee-chai",
+      "eng": "Chai Tea:",
+      "ger": "Chai Tee:"
+    },
+    {
+      "id": "coffee-biotee-roobios",
+      "eng": "Rooibos Tea:",
+      "ger": "Rooibos Tee:"
+    },
+    {
+      "id": "coffee-biotee-black",
+      "eng": "Black Tea:",
+      "ger": "Schwarzer Tee:"
+    },
+    {
+      "id": "coffee-biotee-green",
+      "eng": "Green Tea:",
+      "ger": "Grüner Tee:"
+    },
+    {
+      "id": "coffee-biotee-herb",
+      "eng": "Herb Tea:",
+      "ger": "Kräutertee Tee:"
+    },
+    {
+      "id": "coffee-biotee-1",
+      "eng": "Cinnamon Ginger",
+      "ger": "Zimt Ingwer"
+    },
+    {
+      "id": "coffee-biotee-2",
+      "eng": "Bourbon Vanilla",
+      "ger": "Bourbon Vanille"
+    },
+    {
+      "id": "coffee-biotee-3",
+      "eng": "Earl Grey",
+      "ger": "Graf Grey"
+    },
+    {
+      "id": "coffee-biotee-4",
+      "eng": "Criss Cross",
+      "ger": "Criss Cross"
+    },
+    {
+      "id": "coffee-biotee-5",
+      "eng": "Chamomile | Peppermint",
+      "ger": "Kamille | Pfefferminze"
+    },
+    {
       "id": "contact-header-hours",
-      "eng": "H O U R S",
-      "ger": "S T D"
+      "eng": "HOURS",
+      "ger": "STD"
     },
     {
       "id": "monday",
@@ -322,8 +462,8 @@
     },
     {
       "id": "contact-header-location",
-      "eng": "L O C A T I O N",
-      "ger": "L A G E"
+      "eng": "LOCATION",
+      "ger": "LAGE"
     },
     {
       "id": "footer-content",
