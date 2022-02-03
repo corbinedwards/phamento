@@ -103,6 +103,14 @@ a.button {
   width: auto;
 }
 
+.collapse.navbar-collapse {
+  height: 100%;
+}
+
+.show.collapse.navbar-collapse {
+  height: auto;
+}
+
 .show.collapse.navbar-collapse > .navbar-nav > .nav-item,
 .collapsing.navbar-collapse > .navbar-nav > .nav-item {
   font-size: 30px;
@@ -118,8 +126,6 @@ a.button {
 }
 
 #navbarSupportedContent {
-  height: 100%;
-  justify-content: center;
   margin-left: 50px;
 }
 
@@ -329,7 +335,7 @@ a.button {
 .contact-line {
   font-size: 20px;
   line-height: 1.6;
-  color: black;
+  color: rgb(65, 65, 65);
 }
 
 #footer {
