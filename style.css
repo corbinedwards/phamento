@@ -21,8 +21,8 @@ body {
 
 hr {
   margin: 10 0 0 0;
-  /* color: var(--phamento-color); */
   border: 1px solid var(--phamento-color);
+  z-index: -1;
 }
 
 .phamento-bold {
@@ -70,6 +70,7 @@ a.button {
 
 .navbar-wrapper {
   background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -281,6 +282,31 @@ a.button {
   color: var(--phamento-color);
 }
 
+#menu-grid-coffee {
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 1em;
+}
+
+.menu-coffee-name {
+  word-wrap: break-word;
+}
+
+.menu-biotee-type {
+  font-family: "sofia-pro-bold";
+}
+
+.biotee-name {
+  text-align: right;
+}
+
+.menu-dot {
+  border-bottom: dotted 3px orange;
+  width: auto;
+  height: 12px;
+  margin: 0 5px 0 5px;
+}
 
 #contact-content {
   display: flex;
