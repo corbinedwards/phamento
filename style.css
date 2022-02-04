@@ -156,10 +156,22 @@ a.button {
 .nav-link:hover {
   border-top: 4px solid var(--phamento-color) !important;
 }
+@media(max-width: 991px) {
+  .nav-link:hover {
+    background-color: var(--phamento-color) !important;
+    color: white !important;
+  }
+}
 
 .nav-link-active {
   border-top: 4px solid var(--phamento-color);
   font-family: "sofia-pro-bold";
+}
+@media(max-width: 991px) {
+  .nav-link-active {
+    background-color: var(--phamento-color) !important;
+    color: white !important;
+  }
 }
 
 .nav-link-language {
