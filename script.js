@@ -6,6 +6,15 @@ const headerOffSet = document.getElementsByClassName('navbar')[0].clientHeight;
 const smallSectionThreshold = 350; // defines a scroll point a little before small sections
 const smallSectionIds = ["contact"];
 
+function currentLanguage(lang) {
+    if(lang !== 'eng' && lang !== 'ger') {
+        console.log('ERROR: Unsupported language cookie');
+        return 'eng';
+    }
+
+    console.log(document.cookie.split('; ').some((item) => item.trim().startsWith('language=')));
+}
+
 function scrollToTarget(elem, event) {
     let elementTop = elem.getBoundingClientRect().top;
     let offset = elementTop + window.scrollY - headerOffSet;
@@ -47,7 +56,7 @@ function updateNavActive() {
     if(sectionIndex > -1) navSectionLinks[sectionIndex].classList.add("nav-link-active");
 };
 
-// LANGUAGE REPLACEMENTS
+// LANGUAGE REPLACEMENTS (I'm sorry you have to see this much code)
 let languageSwitch = [
     {
     id: "link-hero",
@@ -540,7 +549,7 @@ let languageSwitch = [
     ger: "LAGE"
     },
     {
-    id: "footer-content",
+    id: "footer-content-1",
     eng: "©2022 Phamento LLC.",
     ger: "©2022 Phamento LLC."
     },
@@ -565,6 +574,15 @@ function changeLanguage(lang) {
     });
 }
 
+// language cookie
+// if(!document.cookie.split('; ').find(c => c.startsWith('language'))) {
+//     document.cookie += 'language=ger; '
+// }
+// else {
+//     console.log('cookie exists??')
+// };
+
+// nav scrolling
 document.addEventListener('scroll', () => updateNavActive());
 
 for (let i = 0; i < navSectionLinks.length; i++) {
@@ -575,4 +593,8 @@ for (let i = 0; i < btnsMenu.length; i++) {
     btnsMenu[i].addEventListener('click', (e) => scrollToTarget(Array.from(sections).find((s) => s.id == "menu"), e));
 }
 
-changeLanguage("eng");
+// set language
+changeLanguage("ger");
+
+document.cookie = "language=ger;max-age=60*60*24*365;samesite=lax;"
+console.log(document.cookie);

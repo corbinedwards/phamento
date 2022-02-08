@@ -1,1 +1,1 @@
-- On mobile nav dropdown, have hover and active links with blue background & white text
+- Moving and changing hero background

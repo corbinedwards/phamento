@@ -490,7 +490,7 @@ let languageSwitch = [
     ger: "LAGE"
     },
     {
-    id: "footer-content",
+    id: "footer-content-1",
     eng: "©2022 Phamento LLC.",
     ger: "©2022 Phamento LLC."
     },
