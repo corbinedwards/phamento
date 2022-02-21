@@ -1,5 +1,18 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { graphql } from "gatsby"
+
+/*
+query MyQuery {
+  allLanguagesJson(filter: {jsonId: {eq: "friday"}}) {
+    nodes {
+      eng
+      ger
+    }
+  }
+}
+
+*/
 
 import "../styles/style.css"
 import "bootstrap/dist/css/bootstrap.min.css";
