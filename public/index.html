@@ -4,16 +4,14 @@
     <meta charset="utf-8" />
     <title>Phamento</title>
     <meta name="description" content="Phamento Bubble-Tee" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="telephone=no" />
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="icon.png" />
-
-    <!-- <link rel="canonical" href="https://yoast.com/wordpress-seo/" /> -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/icon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,8 +25,8 @@
       <div class="container-fluid navbar-wrapper position-fixed">
         <nav class="container navbar navbar-expand-lg">
           <div class="logo" id="logo-nav">
-            <img id="logo-img-nav" src="Images/phamento_logo.png"/>
-            <a class="button d-lg-none" href="#menu">
+            <img id="logo-img-nav" src="img/phamento_logo.png"/>
+            <a class="button d-none d-md-inline-block d-lg-none" href="#menu">
               <button class="button-phamento" id="button-nav-menu">
                 Menu
               </button>
@@ -55,19 +53,38 @@
                   href="#hero"
                   class="nav-item nav-link nav-link-active"
                   id="link-hero"
+                  data-bs-toggle="collapse" 
+                  data-bs-target=".navbar-collapse.show"
                   >HOME</a
                 >
               </li>
               <li class="nav-item">
-                <a href="#about" class="nav-item nav-link" id="link-about"
+                <a 
+                  href="#about" 
+                  class="nav-item nav-link" 
+                  id="link-about" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target=".navbar-collapse.show"
                   >ABOUT</a
                 >
               </li>
               <li class="nav-item">
-                <a href="#menu" class="nav-item nav-link" id="link-menu">MENU</a>
+                <a 
+                  href="#menu" 
+                  class="nav-item nav-link" 
+                  id="link-menu" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target=".navbar-collapse.show"
+                  >MENU</a
+                >
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-item nav-link" id="link-contact"
+                <a 
+                  href="#contact" 
+                  class="nav-item nav-link" 
+                  id="link-contact"
+                  data-bs-toggle="collapse" 
+                  data-bs-target=".navbar-collapse.show"
                   >CONTACT</a
                 >
               </li>
@@ -87,14 +104,24 @@
                 </ul>
               </li>
               <li class="nav-item nav-link-language d-xs-block d-lg-none">
-                <a href="#" class="nav-item nav-link" id="eng">
-                  ENG
-                </a>
+                <a 
+                  href="#" 
+                  class="nav-item nav-link" 
+                  id="eng"
+                  data-bs-toggle="collapse" 
+                  data-bs-target=".navbar-collapse.show">
+                  ENG</a
+                >
               </li>
               <li class="nav-item nav-link-language d-xs-block d-lg-none">
-                <a href="#" class="nav-item nav-link" id="ger">
-                  GER
-                </a>
+                <a 
+                  href="#" 
+                  class="nav-item nav-link" 
+                  id="ger"
+                  data-bs-toggle="collapse" 
+                  data-bs-target=".navbar-collapse.show">
+                  GER</a
+                >
               </li>
             </ul>
           </div>
@@ -105,14 +132,12 @@
           <header>
             <h1
               class="hero-header"
-              style="font-family: 'sofia-pro-bold';font-size: 96px;"
               id="hero-header-main"
             >
               Good Ass Bubble Tea
             </h1>
             <h3
               class="hero-header"
-              style="font-size: 36px;"
             >
               <span id="hero-header-sub">This Bubble Tea is really good.</span>
               <br />
@@ -129,9 +154,9 @@
           <header>
             <h2 class="content-header" id="about-header">ABOUT</h2>
           </header>
-          <div class="d-flex flex-sm-column flex-lg-row justify-content-between" style="gap:50px;">
-            <div class="d-flex justify-content-center" style="width: auto;">
-              <img src="Images/tea (1).jpg" alt="bubble tea" class="rounded" id="about-img"/>
+          <div class="d-flex flex-column flex-lg-row justify-content-between" style="gap:50px;">
+            <div class="mh-vh-60 mw-vh-60 d-flex justify-content-center" style="width: auto;">
+              <img src="img/tea (1).jpg" alt="bubble tea" class="rounded" id="about-img"/>
             </div>
             <div id="about-content-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -163,7 +188,7 @@
               </h3>
             </div>
           </header>
-          <div class="menu-grid" id="menu-grid-drinks">
+          <div class="menu-grid menu-grid-blocks" id="menu-grid-drinks">
             <div class="menu-grid-col">
               <div class="menu-drinks-type">
                 <span id="drinks-milktea">Milchtee</span>
@@ -222,7 +247,7 @@
               <h3 class="menu-price"><span class="price">+ 0,50€</span></h3>
             </div>
           </header>
-          <div class="menu-grid" id="menu-grid-toppings">
+          <div class="menu-grid menu-grid-blocks" id="menu-grid-toppings">
             <div class="menu-grid-col">
               <div class="menu-drinks-type">
                 <span id="toppings-klassik">Klassik</span>
@@ -260,7 +285,7 @@
               </h2>
             </div>
           </header>
-          <div class="container-fluid d-flex flex-column" id="menu-grid-coffee">
+          <div class="container-fluid d-flex flex-column menu-grid" id="menu-grid-coffee">
             <div>
               <div class="menu-drinks-type">
                 <span id="coffee-vietnam">Made In Vietnam</span>
@@ -358,12 +383,12 @@
         </div>
       </section>
       <section class="container-fluid section" id="contact">
-        <div class="container-lg ps-lg-5 pe-lg-5 flex-column flex-lg-row justify-content-evenly" id="contact-content">
+        <div class="container-lg ps-lg-5 pe-lg-5 flex-column flex-lg-row justify-content-between justify-content-lg-evenly" id="contact-content">
           <div class="logo justify-content-center">
-            <img src="Images/phamento_logo.png"/>
+            <img src="img/phamento_logo.png"/>
           </div>
-          <div class="flex-grow-1 d-flex flex-row justify-content-evenly">
-            <div>
+          <div class="flex-grow-1 d-flex flex-column flex-md-row justify-content-evenly">
+            <div class="contact-block">
               <h2 class="content-header contact-header" id="contact-header-hours">
                 STD
               </h2>
@@ -394,7 +419,7 @@
                 <span class="phamento-bold" id="sunday">Sonntag:</span> 12pm - 7pm
               </h3>
             </div>
-            <div>
+            <div class="contact-block">
               <h2
                 class="content-header contact-header"
                 id="contact-header-location"
