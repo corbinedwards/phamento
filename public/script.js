@@ -13,7 +13,6 @@ async function loadLanguageText() {
     return res.json();
 };
 
-
 function currentLanguage() {
     if(!document.cookie) {
         document.cookie = "language=ger;max-age=60*60*24*365;samesite=lax;";
@@ -23,6 +22,7 @@ function currentLanguage() {
        return document.cookie.split(';').find(c => c.startsWith('language')).split('=')[1];
 };
 
+// setLanguage(): sets site text to German ('ger') or English ('eng')
 function setLanguage(lang) {
     lang = lang.toLowerCase();
 
@@ -44,12 +44,13 @@ function setLanguage(lang) {
     });
 
     document.cookie = `language=${lang};max-age=60*60*24*365;samesite=lax;`;
-}
+};
 
 function switchLanguage() {
     (currentLanguage() === 'ger') ? setLanguage('eng') : setLanguage('ger');
 };
 
+// scrollToTarget(): offsets navigation scrolling from fixed navbar height
 function scrollToTarget(elem, event) {
     let elementTop = elem.getBoundingClientRect().top;
     let offset = elementTop + window.scrollY - headerOffSet;
