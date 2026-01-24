@@ -11,4 +11,4 @@ app.use(express.json());
 app.get('/language', (req,res) => res.json(lang));
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, '/index.html')));
 
-app.listen(process.env.PORT, () => console.log(`Listening...`));
+app.listen(3000, () => console.log(`Listening...`));
