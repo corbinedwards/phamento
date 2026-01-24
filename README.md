@@ -1,5 +1,5 @@
 # Phamento
-A website I created in 2022 for my friend's bubble tea business. This app was created in vanilla Node.js and features localization without the help of a third party library.
+A website I created in 2022 for my friend's bubble tea business. This app was created in vanilla Node.js and features localization without the help of a third party library. Styling was also done from scratch without a third party library.
 
 <img width="1574" height="932" alt="Screenshot_20260123_222647" src="https://github.com/user-attachments/assets/eae32791-9fd0-4c18-b9fe-9c1204bd3209" />
 
